@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaWeb.iml" filepath="$PROJECT_DIR$/.idea/javaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis_learn/redis_learn.iml" filepath="$PROJECT_DIR$/redis_learn/redis_learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_example/servlet_example.iml" filepath="$PROJECT_DIR$/servlet_example/servlet_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_learn/servlet_learn.iml" filepath="$PROJECT_DIR$/servlet_learn/servlet_learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat_leran/tomcat_leran.iml" filepath="$PROJECT_DIR$/tomcat_leran/tomcat_leran.iml" />
+    </modules>
+  </component>
+</project>
