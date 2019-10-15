@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="" />
+    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/filter/SensitiveWordsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/proxy/Lenovo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/proxy/SaleComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet_example/src/敏感词汇.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb_out/artifacts/servlet_example_war_exploded/WEB-INF/classes/cn/figo/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb_out/artifacts/servlet_example_war_exploded/WEB-INF/classes/cn/figo/web/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb_out/production/servlet_example/cn/figo/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb_out/production/servlet_example/cn/figo/web/servlet/LoginServlet.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,30 +74,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/servlet_example/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/servlet_example/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1_Code\java\javaWeb\servlet_example\web\WEB-INF\lib" />
-      <recent name="D:\1_Code\java\javaWeb\servlet_example\web" />
-      <recent name="D:\1_Code\java\javaWeb\servlet_example\web\WEB-INF" />
-      <recent name="D:\1_Code\java\javaWeb\servlet_example\src\cn\figo" />
-      <recent name="D:\1_Code\java\javaWeb\servlet_learn\web\WEB-INF\lib" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.figo.web.response" />
-      <recent name="cn.figo.web.servlet" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\1_Code\java\javaWeb\servlet_example\src" />
       <recent name="D:\1_Code\java\javaWeb\servlet_learn\web" />
       <recent name="D:\1_Code\java\javaWeb\servlet_learn\web\WEB-INF\lib" />
       <recent name="D:\1_Code\java\javaWeb\servlet_learn\web\WEB-INF" />
       <recent name="D:\1_Code\java\javaWeb\servlet_learn\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.figo.web.response" />
+      <recent name="cn.figo.web.servlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\javaWeb\servlet_example\src" />
+      <recent name="D:\1_Code\java\javaWeb\servlet_example\src\cn\figo\web\proxy" />
+      <recent name="D:\1_Code\java\javaWeb\servlet_example\web\WEB-INF\lib" />
+      <recent name="D:\1_Code\java\javaWeb\servlet_example\web" />
+      <recent name="D:\1_Code\java\javaWeb\servlet_example\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,13 +113,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
-    <configuration name="JedisHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JedisHash" />
-      <module name="redis_learn" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JedisList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JedisList" />
       <module name="redis_learn" />
@@ -132,6 +137,19 @@
     <configuration name="JedisZset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JedisZset" />
       <module name="redis_learn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.figo.web.proxy.ProxyTest" />
+      <module name="servlet_example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.web.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,20 +227,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JedisHash" />
       <item itemvalue="Application.JedisList" />
       <item itemvalue="Application.JedisSet" />
       <item itemvalue="Application.JedisZset" />
       <item itemvalue="Application.JedisPoolTest" />
+      <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.JedisPoolTest" />
         <item itemvalue="Application.JedisZset" />
         <item itemvalue="Application.JedisSet" />
         <item itemvalue="Application.JedisList" />
-        <item itemvalue="Application.JedisHash" />
       </list>
     </recent_temporary>
   </component>
@@ -244,12 +262,37 @@
       <workItem from="1570715927989" duration="4468000" />
       <workItem from="1570720698846" duration="308000" />
       <workItem from="1570931956346" duration="22502000" />
-      <workItem from="1570973663965" duration="1487000" />
+      <workItem from="1570973663965" duration="2245000" />
+      <workItem from="1571146468297" duration="5650000" />
+      <workItem from="1571153810060" duration="1092000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
