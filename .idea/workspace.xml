@@ -6,18 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/filter/SensitiveWordsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/proxy/Lenovo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/proxy/SaleComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/servlet/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet_example/src/敏感词汇.txt" afterDir="false" />
+    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="filter learn">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/javaWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWeb_out/artifacts/servlet_example_war_exploded/WEB-INF/classes/cn/figo/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb_out/artifacts/servlet_example_war_exploded/WEB-INF/classes/cn/figo/web/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWeb_out/production/servlet_example/cn/figo/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb_out/production/servlet_example/cn/figo/web/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis_learn/redis_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis_learn/redis_learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet_example/servlet_example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet_example/servlet_example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet_example/src/cn/figo/web/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet_learn/servlet_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet_learn/servlet_learn.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +58,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\maven_repository" />
+        <option name="mavenHome" value="D:/develop/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1RBrutSQCHobgNkc7JHJ6tQCvwy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -74,11 +79,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/servlet_example/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -264,8 +269,19 @@
       <workItem from="1570931956346" duration="22502000" />
       <workItem from="1570973663965" duration="2245000" />
       <workItem from="1571146468297" duration="5650000" />
-      <workItem from="1571153810060" duration="1092000" />
+      <workItem from="1571153810060" duration="1458000" />
+      <workItem from="1571160587755" duration="398000" />
+      <workItem from="1581494476040" duration="53000" />
+      <workItem from="1584416643090" duration="481000" />
     </task>
+    <task id="LOCAL-00001" summary="filter learn">
+      <created>1571155011150</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571155011150</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +309,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="filter learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter learn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
