@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/es6_vue/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6_vue/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/hello.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../handou" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -115,14 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.31">
-    <configuration name="JedisList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JedisList" />
-      <module name="redis_learn" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="npm.test">
     <configuration name="JedisPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JedisPoolTest" />
       <module name="redis_learn" />
@@ -229,21 +223,31 @@
         </option>
       </method>
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/es6_vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.JedisList" />
       <item itemvalue="Application.JedisSet" />
       <item itemvalue="Application.JedisZset" />
       <item itemvalue="Application.JedisPoolTest" />
       <item itemvalue="Application.ProxyTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.31" />
+      <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.JedisPoolTest" />
         <item itemvalue="Application.JedisZset" />
         <item itemvalue="Application.JedisSet" />
-        <item itemvalue="Application.JedisList" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +276,8 @@
       <workItem from="1581494476040" duration="53000" />
       <workItem from="1584416643090" duration="481000" />
       <workItem from="1584417135853" duration="250000" />
-      <workItem from="1584526614018" duration="1830000" />
+      <workItem from="1584526614018" duration="2880000" />
+      <workItem from="1584540490133" duration="1170000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -302,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584527146390</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增 hello.html 演示vue的模型和视图">
+      <created>1584528510065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584528510065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +349,8 @@
     <MESSAGE value="修改 servlet_example模块中的 LoginFilter类" />
     <MESSAGE value="初始化 vue目录" />
     <MESSAGE value="安装 vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装 vue" />
+    <MESSAGE value="新增 hello.html 演示vue的模型和视图" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 hello.html 演示vue的模型和视图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
