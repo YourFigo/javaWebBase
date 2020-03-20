@@ -22,11 +22,15 @@
         el:"#app", // el即element，该vue实例要渲染的页面元素
         data:{ // 渲染页面需要的数据
             name: "飞哥",
-            num: 100
+            num: 5
         },
         methods:{
             incr(){
+                console.log(this);
                 this.num++;
+            },
+            created(){
+                this.num = 100;
             }
         }
     });

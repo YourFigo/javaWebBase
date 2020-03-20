@@ -280,7 +280,7 @@
       <workItem from="1584540490133" duration="1252000" />
       <workItem from="1584605167644" duration="772000" />
       <workItem from="1584681982784" duration="611000" />
-      <workItem from="1584687809878" duration="2469000" />
+      <workItem from="1584687809878" duration="4719000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584541722873</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改 hello.html vue的两个属性：v-model和v-on">
+      <created>1584700840503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584700840503</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +368,8 @@
     <MESSAGE value="安装 vue" />
     <MESSAGE value="新增 hello.html 演示vue的模型和视图" />
     <MESSAGE value="修改 hello.html vue数据和模型双向绑定" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html vue数据和模型双向绑定" />
+    <MESSAGE value="修改 hello.html vue的两个属性：v-model和v-on" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html vue的两个属性：v-model和v-on" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
