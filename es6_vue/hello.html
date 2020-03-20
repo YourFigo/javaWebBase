@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,7 +7,11 @@
 <body>
 <!--vue对象的html模板-->
 <div id="app">
+    <!--双向绑定，v-model:数据模型-->
     <input type="text" v-model="num">
+    <!-- v-on:事件名=js表达式-->
+    <input type="button" value="点我" v-on:click="incr">
+    <!-- 花括号:js表达式-->
     <h2>大家好，我是{{name}}，有{{num}}位妹子</h2>
 </div>
 </body>
@@ -19,6 +23,11 @@
         data:{ // 渲染页面需要的数据
             name: "飞哥",
             num: 100
+        },
+        methods:{
+            incr(){
+                this.num++;
+            }
         }
     });
 
