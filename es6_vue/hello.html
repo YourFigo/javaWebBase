@@ -13,10 +13,10 @@
     您选择了：{{language}}
     <hr>
     <!--双向绑定，v-model:数据模型-->
-    <input type="text" v-model="num">
+    <input type="text" v-model="num" @keyup.alt.67="submit">
     <!-- v-on:事件名=js表达式-->
    <!-- <input type="button" value="点我" v-on:click="incr">-->
-    <button v-on:click="add">点我</button>
+    <button @contextMenu="add($event)">点我</button>
     <!-- 花括号:js表达式-->
     <h2>大家好，我是<span v-text="name">张学友</span>，有{{sum()}}位妹子</h2>
 </div>
@@ -32,12 +32,16 @@
             language:[]
         },
         methods:{
-            add(){
+            add(ev){
+                ev.preventDefault();
                 console.log(this);
                 this.num++;
             },
             sum(){
                 return this.num + 100;
+            },
+            submit(){
+                console.log("提交");
             },
             created(){
                 return this.num = 100;

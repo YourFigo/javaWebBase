@@ -281,7 +281,7 @@
       <workItem from="1584605167644" duration="772000" />
       <workItem from="1584681982784" duration="611000" />
       <workItem from="1584687809878" duration="4737000" />
-      <workItem from="1585013858410" duration="5107000" />
+      <workItem from="1585013858410" duration="6288000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584717078669</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改 hello.html vue的两个属性：插值表达式和v-model">
+      <created>1585057743745</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585057743745</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +384,8 @@
     <MESSAGE value="新增 hello.html 演示vue的模型和视图" />
     <MESSAGE value="修改 hello.html vue数据和模型双向绑定" />
     <MESSAGE value="修改 hello.html vue的两个属性：v-model和v-on" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html vue的两个属性：v-model和v-on" />
+    <MESSAGE value="修改 hello.html vue的两个属性：插值表达式和v-model" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html vue的两个属性：插值表达式和v-model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
