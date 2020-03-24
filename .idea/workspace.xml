@@ -281,7 +281,7 @@
       <workItem from="1584605167644" duration="772000" />
       <workItem from="1584681982784" duration="611000" />
       <workItem from="1584687809878" duration="4737000" />
-      <workItem from="1585013858410" duration="6288000" />
+      <workItem from="1585013858410" duration="8009000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -346,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585057743745</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改 hello.html v-on 事件修饰符">
+      <created>1585058985316</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585058985316</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +392,8 @@
     <MESSAGE value="修改 hello.html vue数据和模型双向绑定" />
     <MESSAGE value="修改 hello.html vue的两个属性：v-model和v-on" />
     <MESSAGE value="修改 hello.html vue的两个属性：插值表达式和v-model" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html vue的两个属性：插值表达式和v-model" />
+    <MESSAGE value="修改 hello.html v-on 事件修饰符" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html v-on 事件修饰符" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

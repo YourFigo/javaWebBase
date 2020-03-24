@@ -7,6 +7,14 @@
 <body>
 <!--vue对象的html模板-->
 <div id="app">
+    <ul>
+        <li v-for="(val,key,index) in user">{{index}}.{{key}}:{{val}}</li>
+    </ul>
+    <hr>
+    <ul>
+        <li v-for="(user,index) in users">{{index+1}}.{{user.name}}-{{user.gender}}-{{user.age}}</li>
+    </ul>
+    <hr>
     <input type="checkbox" value="ios" v-model="language">ios
     <input type="checkbox" value="java" v-model="language">java
     <input type="checkbox" value="php" v-model="language">php
@@ -29,7 +37,15 @@
         data:{ // 渲染页面需要的数据
             name: "飞哥",
             num: 5,
-            language:[]
+            language:[],
+            users:[
+                {name:'柳岩', gender:'女', age: 21},
+                {name:'峰哥', gender:'男', age: 18},
+                {name:'范冰冰', gender:'女', age: 24},
+                {name:'刘亦菲', gender:'女', age: 18},
+                {name:'古力娜扎', gender:'女', age: 25}
+            ],
+            user:{name:'峰哥', gender:'男', age: 18}
         },
         methods:{
             add(ev){
