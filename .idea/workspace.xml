@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="" />
+    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6_vue/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/hello.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,6 +281,7 @@
       <workItem from="1584605167644" duration="772000" />
       <workItem from="1584681982784" duration="611000" />
       <workItem from="1584687809878" duration="4737000" />
+      <workItem from="1585013858410" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
