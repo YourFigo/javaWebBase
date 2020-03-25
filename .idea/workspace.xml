@@ -281,7 +281,8 @@
       <workItem from="1584605167644" duration="772000" />
       <workItem from="1584681982784" duration="611000" />
       <workItem from="1584687809878" duration="4737000" />
-      <workItem from="1585013858410" duration="8009000" />
+      <workItem from="1585013858410" duration="9139000" />
+      <workItem from="1585102296702" duration="1444000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -353,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585058985316</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="修改 hello.html v-on v-for 遍历 数组和对象">
+      <created>1585061715349</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585061715349</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +401,8 @@
     <MESSAGE value="修改 hello.html vue的两个属性：v-model和v-on" />
     <MESSAGE value="修改 hello.html vue的两个属性：插值表达式和v-model" />
     <MESSAGE value="修改 hello.html v-on 事件修饰符" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html v-on 事件修饰符" />
+    <MESSAGE value="修改 hello.html v-on v-for 遍历 数组和对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html v-on v-for 遍历 数组和对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
