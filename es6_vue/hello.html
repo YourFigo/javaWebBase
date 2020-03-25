@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    .active{
+
+    }
+</style>
 <body>
 <!--vue对象的html模板-->
 <div id="app">
+
+    <input type="text" v-model="store">
+    <input type="button" v-bind:class="{active: store > 0}" value="加入购物车">
+    <hr>
+
     <!--<input type="button" value="点我呀" @click="show=!show"><br>
     <span v-if="show">你看到我了说明我是true，if</span>
     <span v-show="show">你看到我了说明我是true，show</span>-->
-    <input type="button" value="点我呀，生成随机数" @click="random=Math.random()">{{random}}<br>
+    <input type="button" v-bind:value="value" @click="random=Math.random()">{{random}}<br>
     <span v-if="random > 0.75">你看到我了说明我大于0.75</span>
     <span v-else-if="random > 0.5">你看到我了说明我大于0.5</span>
     <span v-else-if="random > 0.25">你看到我了说明我大于0.25</span>
@@ -59,7 +69,9 @@
             ],
             user:{name:'峰哥', gender:'男', age: 18},
             show:true,
-            random:0
+            random:0,
+            value:0,
+            store:0
         },
         methods:{
             add(ev){

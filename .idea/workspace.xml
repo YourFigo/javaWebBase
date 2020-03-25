@@ -282,7 +282,7 @@
       <workItem from="1584681982784" duration="611000" />
       <workItem from="1584687809878" duration="4737000" />
       <workItem from="1585013858410" duration="9139000" />
-      <workItem from="1585102296702" duration="3111000" />
+      <workItem from="1585102296702" duration="9762000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -368,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585104473956</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修改 hello.html v-if v-show">
+      <created>1585106266397</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585106266397</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +417,8 @@
     <MESSAGE value="修改 hello.html v-on 事件修饰符" />
     <MESSAGE value="修改 hello.html v-on v-for 遍历 数组和对象" />
     <MESSAGE value="修改 hello.html 钩子函数不能放在 实例的methods中" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html 钩子函数不能放在 实例的methods中" />
+    <MESSAGE value="修改 hello.html v-if v-show" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html v-if v-show" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
