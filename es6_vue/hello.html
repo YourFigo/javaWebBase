@@ -7,19 +7,31 @@
 <body>
 <!--vue对象的html模板-->
 <div id="app">
+    <!--<input type="button" value="点我呀" @click="show=!show"><br>
+    <span v-if="show">你看到我了说明我是true，if</span>
+    <span v-show="show">你看到我了说明我是true，show</span>-->
+    <input type="button" value="点我呀，生成随机数" @click="random=Math.random()">{{random}}<br>
+    <span v-if="random > 0.75">你看到我了说明我大于0.75</span>
+    <span v-else-if="random > 0.5">你看到我了说明我大于0.5</span>
+    <span v-else-if="random > 0.25">你看到我了说明我大于0.25</span>
+    <span v-else>你看到我了说明我大于0</span>
+    <hr>
+
     <ul>
         <li v-for="(val,key,index) in user">{{index}}.{{key}}:{{val}}</li>
     </ul>
     <hr>
     <ul>
-        <li v-for="(user,index) in users">{{index+1}}.{{user.name}}-{{user.gender}}-{{user.age}}</li>
+        <li v-if="user.gender=='女'" v-for="(user,index) in users">{{index+1}}.{{user.name}}-{{user.gender}}-{{user.age}}</li>
     </ul>
     <hr>
+
     <input type="checkbox" value="ios" v-model="language">ios
     <input type="checkbox" value="java" v-model="language">java
     <input type="checkbox" value="php" v-model="language">php
     您选择了：{{language}}
     <hr>
+
     <!--双向绑定，v-model:数据模型-->
     <input type="text" v-model="num" @keyup.alt.67="submit">
     <!-- v-on:事件名=js表达式-->
@@ -45,7 +57,9 @@
                 {name:'刘亦菲', gender:'女', age: 18},
                 {name:'古力娜扎', gender:'女', age: 25}
             ],
-            user:{name:'峰哥', gender:'男', age: 18}
+            user:{name:'峰哥', gender:'男', age: 18},
+            show:true,
+            random:0
         },
         methods:{
             add(ev){
