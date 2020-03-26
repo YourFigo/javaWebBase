@@ -14,7 +14,7 @@
 <div id="app">
 
     <input type="text" v-model="store">
-    <input type="button" v-bind:class="{active: store > 0}" value="加入购物车">
+    <input type="button" :class="{active: store > 0}" value="加入购物车">
     <hr>
 
     <!--<input type="button" value="点我呀" @click="show=!show"><br>
@@ -71,7 +71,7 @@
             show:true,
             random:0,
             value:0,
-            store:0
+            store:5
         },
         methods:{
             add(ev){
