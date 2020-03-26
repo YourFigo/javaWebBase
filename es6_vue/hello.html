@@ -13,6 +13,10 @@
 <!--vue对象的html模板-->
 <div id="app">
 
+    <div>
+        {{ birth1}}
+    </div>
+    <hr>
     <input type="text" v-model="store">
     <input type="button" :class="{active: store > 0}" value="加入购物车">
     <hr>
@@ -71,7 +75,8 @@
             show:true,
             random:0,
             value:0,
-            store:5
+            store:5,
+            birthday:1529032123201 // 毫秒值
         },
         methods:{
             add(ev){
@@ -84,6 +89,16 @@
             },
             submit(){
                 console.log("提交");
+            },
+            birth(){
+                const data = new Date(this.birthday);
+                return data.getFullYear() + '-'+ data.getMonth()+ '-' + data.getDay();
+            }
+        },
+        computed:{
+            birth1(){
+                const data = new Date(this.birthday);
+                return data.getFullYear() + '-'+ data.getMonth()+ '-' + data.getDay();
             }
         },
         created(){
