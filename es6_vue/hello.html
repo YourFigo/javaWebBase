@@ -13,6 +13,9 @@
 <!--vue对象的html模板-->
 <div id="app">
 
+    <input type="text" v-model="search">
+    <hr>
+
     <div>
         {{ birth1}}
     </div>
@@ -76,7 +79,8 @@
             random:0,
             value:0,
             store:5,
-            birthday:1529032123201 // 毫秒值
+            birthday:1529032123201, // 毫秒值
+            search:""
         },
         methods:{
             add(ev){
@@ -99,6 +103,11 @@
             birth1(){
                 const data = new Date(this.birthday);
                 return data.getFullYear() + '-'+ data.getMonth()+ '-' + data.getDay();
+            }
+        },
+        watch:{
+            search(val1,val2){
+                console.log(val1,val2);
             }
         },
         created(){
