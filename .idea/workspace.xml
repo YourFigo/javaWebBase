@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/es6_vue/component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6_vue/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/hello.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -283,7 +283,7 @@
       <workItem from="1584687809878" duration="4737000" />
       <workItem from="1585013858410" duration="9139000" />
       <workItem from="1585102296702" duration="9846000" />
-      <workItem from="1585199585239" duration="3135000" />
+      <workItem from="1585199585239" duration="4127000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -390,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585234794597</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="修改 hello.html computed 计算属性">
+      <created>1585235461652</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585235461652</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改 hello.html watch 监听">
+      <created>1585235936168</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585235936168</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +448,9 @@
     <MESSAGE value="修改 hello.html 钩子函数不能放在 实例的methods中" />
     <MESSAGE value="修改 hello.html v-if v-show" />
     <MESSAGE value="修改 hello.html v-bind" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html v-bind" />
+    <MESSAGE value="修改 hello.html computed 计算属性" />
+    <MESSAGE value="修改 hello.html watch 监听" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html watch 监听" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
