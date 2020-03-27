@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--使用子组件，同时传递num1属性  自定义num1和incr-->
+    <counter :num1="num" @incr="increment()"></counter>
+</div>
+
+</body>
+<script src="node_modules/vue/dist/vue.js" ></script>
+<script>
+
+    Vue.component("counter",{
+        // 直接使用props接收到的属性来渲染页面
+        template:"<button @click='subIncr'>点我{{num1}}</button>",
+        // 通过props来接收一个父组件传递的属性
+        props:{
+            num1:{
+                type:Number
+            }
+        },
+        methods:{
+            subIncr(){
+                this.$emit("incr");
+            }
+        }
+    })
+
+    const app = new Vue({
+        el:"#app",
+        data:{
+            num:0
+        },
+        methods:{ // 父组件中定义操作num的方法
+            increment(){
+                this.num++;
+            }
+        }
+    })
+
+</script>
+</html>
