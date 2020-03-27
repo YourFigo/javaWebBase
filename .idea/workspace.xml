@@ -6,9 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/es6_vue/component.html" afterDir="false" />
+    <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="新增 component.html 练习 vue组件化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6_vue/component.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../handou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/es6_vue" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
@@ -283,7 +283,8 @@
       <workItem from="1584687809878" duration="4737000" />
       <workItem from="1585013858410" duration="9139000" />
       <workItem from="1585102296702" duration="9846000" />
-      <workItem from="1585199585239" duration="4127000" />
+      <workItem from="1585199585239" duration="4524000" />
+      <workItem from="1585272498419" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -404,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585235936168</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="新增 component.html 练习 vue组件化">
+      <created>1585236673190</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585236673190</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +458,8 @@
     <MESSAGE value="修改 hello.html v-bind" />
     <MESSAGE value="修改 hello.html computed 计算属性" />
     <MESSAGE value="修改 hello.html watch 监听" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 hello.html watch 监听" />
+    <MESSAGE value="新增 component.html 练习 vue组件化" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 component.html 练习 vue组件化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

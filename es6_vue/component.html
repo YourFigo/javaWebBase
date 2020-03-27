@@ -17,6 +17,8 @@
     // vue子组件
     Vue.component("counter",{
         template:"<button @click='num++'>点我{{num}}</button>",
+        // 这里的数据模型不是属性而是方法，这就是精妙之处，属性的话同时复用多个该组件，组件之间的值会相互影响。
+        // 而方法用完就释放了，不会相互影响。
         data(){
             return {
                 num:0
