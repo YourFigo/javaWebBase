@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/es6_vue/src/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/src/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6_vue/component.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +285,7 @@
       <workItem from="1585013858410" duration="9139000" />
       <workItem from="1585102296702" duration="9846000" />
       <workItem from="1585199585239" duration="4524000" />
-      <workItem from="1585272498419" duration="10268000" />
+      <workItem from="1585272498419" duration="13032000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -447,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585295457840</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="学习 vue-router 动态跳转">
+      <created>1585295812412</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585295812412</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
