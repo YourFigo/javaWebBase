@@ -6,26 +6,46 @@
 </head>
 <body>
     <div id="app">
-        <span>登录</span>
-        <span>注册</span>
+        <span><router-link to="/login">登录</router-link></span>
+        <span><router-link to="/register">注册</router-link></span>
         <hr/>
-        <div>
-            登录页/注册页
-            <login-form></login-form>
-            <register-form></register-form>
-        </div>
+        <router-view></router-view>
+<!--        <div>-->
+<!--            登录页/注册页-->
+<!--            <login-form></login-form>-->
+<!--            <register-form></register-form>-->
+<!--            &lt;!&ndash; 由于html是大小写不敏感的，如果采用<loginForm></loginForm>的写法，则被认为是<loginform></loginform>&ndash;&gt;-->
+<!--            &lt;!&ndash; 所以，如果是驼峰形式的组件，在这里写为“-”的形式，会自动转化为驼峰形式&ndash;&gt;-->
+<!--        </div>-->
     </div>
 </body>
 <script src="../node_modules/vue/dist/vue.js"></script>
+<script src="../node_modules/vue-router/dist/vue-router.js"></script>
 <script src="js/login.js"></script>
 <script src="js/register.js"></script>
 <script>
+
+    const router = new VueRouter({
+        routes:[
+            {
+                // 路由路径必须以"/"开头
+                path:"/login",
+                component:loginForm
+            },
+            {
+                path: "/register",
+                component: registerForm
+            }
+        ]
+    })
+
     const app =  new Vue({
         el:"#app",
         components:{
             loginForm,
             registerForm
-        }
+        },
+        router
     })
 </script>
 </html>

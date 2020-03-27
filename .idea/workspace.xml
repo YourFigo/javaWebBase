@@ -7,45 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/dist/vue-router.esm.browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/dist/vue-router.esm.browser.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/dist/vue-router.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/dist/vue-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/dist/vue-router.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/components/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/components/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/create-matcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/create-route-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/history/abstract.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/history/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/history/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/history/hash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/history/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/install.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/misc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/params.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/push-state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/resolve-components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/state-key.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/src/util/warn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/types/router.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/node_modules/vue-router/types/vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/src/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es6_vue/src/js/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6_vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6_vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6_vue/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -322,7 +285,7 @@
       <workItem from="1585013858410" duration="9139000" />
       <workItem from="1585102296702" duration="9846000" />
       <workItem from="1585199585239" duration="4524000" />
-      <workItem from="1585272498419" duration="8902000" />
+      <workItem from="1585272498419" duration="9956000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -471,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585281532796</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="学习 vue-router">
+      <created>1585294437291</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585294437291</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +491,8 @@
     <MESSAGE value="修改 component.html 全局组件" />
     <MESSAGE value="新增 localComponent.html 局部子组件" />
     <MESSAGE value="新增 communicate.html 父子组件的通信" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 communicate.html 父子组件的通信" />
+    <MESSAGE value="学习 vue-router" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习 vue-router" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
