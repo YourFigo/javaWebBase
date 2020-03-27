@@ -8,5 +8,4 @@ const loginForm = {
         <input type="button" value="登录">
     </div>
     `
-
 }

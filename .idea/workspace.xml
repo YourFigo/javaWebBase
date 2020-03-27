@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67455fd4-40f5-41c5-91a7-502b2b2caf35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es6_vue/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6_vue/src/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6_vue/src/js/login.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,7 +284,7 @@
       <workItem from="1585013858410" duration="9139000" />
       <workItem from="1585102296702" duration="9846000" />
       <workItem from="1585199585239" duration="4524000" />
-      <workItem from="1585272498419" duration="9956000" />
+      <workItem from="1585272498419" duration="10268000" />
     </task>
     <task id="LOCAL-00001" summary="filter learn">
       <created>1571155011150</created>
@@ -441,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585294437291</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="学习 vue-router 动态跳转">
+      <created>1585295457840</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585295457840</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +498,8 @@
     <MESSAGE value="新增 localComponent.html 局部子组件" />
     <MESSAGE value="新增 communicate.html 父子组件的通信" />
     <MESSAGE value="学习 vue-router" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习 vue-router" />
+    <MESSAGE value="学习 vue-router 动态跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习 vue-router 动态跳转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
