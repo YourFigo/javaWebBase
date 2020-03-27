@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <span>登录</span>
+        <span>注册</span>
+        <hr/>
+        <div>
+            登录页/注册页
+            <login-form></login-form>
+            <register-form></register-form>
+        </div>
+    </div>
+</body>
+<script src="../node_modules/vue/dist/vue.js"></script>
+<script src="js/login.js"></script>
+<script src="js/register.js"></script>
+<script>
+    const app =  new Vue({
+        el:"#app",
+        components:{
+            loginForm,
+            registerForm
+        }
+    })
+</script>
+</html>
